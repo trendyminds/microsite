@@ -1,10 +1,9 @@
 .row {
-	margin: 1em 0;
 	overflow: hidden;
 	.row__item.row__item--column {
 		@media (min-width: 60em) {
 			float: left;
-			margin: 0 2% 0 0;
+			margin: 0 2% 1em 0;
 		}
 	}
 	.row__item--column.row__item--last {
@@ -15,7 +14,10 @@
 }
 
 .row__item {
-	margin: 1em 0;
+	margin: 0 0 1em;
+	img {
+		display: block;
+	}
 }
 
 .row__item--2 {

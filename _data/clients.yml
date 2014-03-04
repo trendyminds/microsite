@@ -20,3 +20,20 @@
       - type: image
         alt: Placeholder
         url: http://placehold.it/900x400
+
+- name: Client Name 2
+  url: http://google.com/
+  description: >
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, similique, fugit, tempore in sed cumque aliquam maxime nulla dignissimos consequatur earum cupiditate error repellat ea facere quis corporis.</p>
+  work:
+    - row:
+      - type: image
+        alt: Placeholder
+        url: http://placehold.it/1400x900
+    - row:
+      - type: image
+        alt: Placeholder
+        url: http://placehold.it/900x400
+      - type: image
+        alt: Placeholder
+        url: http://placehold.it/900x400

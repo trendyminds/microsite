@@ -1,6 +1,7 @@
 # Global
 markdown: redcarpet
 pygments: true
+exclude: ['node_modules', 'gulpfile.js']
 
 # Site
 name: Microsite
