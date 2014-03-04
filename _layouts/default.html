@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ site.name }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="/js/modernizr.js"></script>
+  <script src="//use.typekit.net/vyw1czo.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+  <!--[if lt IE 9]>
+    <script src="/js/shiv.js"></script>
+    <script src="/js/respond.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <a href="http://trendyminds.com" target="_blank" class="logo">
+        <img src="/images/logo.svg" alt="TrendyMinds" data-fallback="/images/logo.png">
+      </a>
+    </header>
+    {{ content }}
+  </div>
+  <script src="/js/app.js"></script>
+</body>
+</html>

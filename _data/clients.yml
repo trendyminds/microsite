@@ -1,0 +1,22 @@
+- name: Client Name
+  url: http://google.com/
+  description: >
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, similique, fugit, tempore in sed cumque aliquam maxime nulla dignissimos consequatur earum cupiditate error repellat ea facere quis corporis. Ipsa, dolorem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, similique, fugit, tempore in sed cumque aliquam maxime nulla dignissimos consequatur earum cupiditate error repellat ea facere quis corporis. Ipsa, dolorem.</p>
+  work:
+    - row:
+      - type: image
+        alt: Placeholder
+        url: http://placehold.it/900x1200
+      - type: image
+        alt: Placeholder
+        url: http://placehold.it/900x1200
+    - row:
+      - type: image
+        alt: Placeholder
+        url: http://placehold.it/900x400
+      - type: image
+        alt: Placeholder
+        url: http://placehold.it/900x400
+      - type: image
+        alt: Placeholder
+        url: http://placehold.it/900x400

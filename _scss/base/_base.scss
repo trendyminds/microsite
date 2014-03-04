@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+::-moz-selection {
+  background-color: #d18416;
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background-color: #d18416;
+  color: #fff;
+  text-shadow: none;
+}
+
+img {
+	max-width: 100%;
+}

@@ -1,0 +1,61 @@
+body {
+	color: #555;
+	line-height: 1.75em;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1em;
+	margin-bottom: .25em
+}
+
+h1, h2, h3 {
+	color: #333c46;
+	font-family: "lft-etica", sans-serif;
+	font-weight: 700;
+}
+
+h4, h5, h6 {
+	font-family: "sirba-web";
+	font-weight: normal;
+	margin: .5em 0 1em;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+h3 {
+	font-size: 1.75em;
+}
+
+h4 {
+	font-size: 1.25em;
+	margin: .75em 0;
+}
+
+p {
+	font-family: "lft-etica", sans-serif;
+	font-size: 1.4em;
+	font-weight: 300;
+	margin-top: 0;
+}
+
+a {
+	color: #d18416;
+	text-decoration: none;
+
+  &:hover {
+		text-decoration: underline;
+	}
+}
+
+.intro_text p {
+	font-size: 1.75em;
+	line-height: 1.25em;
+	margin-top: 0;
+}

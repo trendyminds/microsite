@@ -1,0 +1,25 @@
+%cta-button {
+    background: url("/images/cta-button.png") top center no-repeat;
+    border: none;
+    color: #FFF;
+    display: block;
+    font-family: "lft-etica", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    text-align: center;
+    width: 300px;
+}
+
+%cta-button:hover {
+    background-position: 0 -52px;
+    text-decoration: none;
+}
+
+.cta-button--centered {
+    @extend %cta-button;
+    margin: 1em auto;
+}

@@ -1,0 +1,17 @@
+# Global
+markdown: redcarpet
+pygments: true
+
+# Site
+name: Microsite
+heading: Our Work
+intro: >
+  <p>For nearly two decades, TrendyMinds has worked as a strategic partner for a growing number of clients in a variety of industries. As you will see below, our company has built large-scale websites, produced compelling videos and managed complex advertising campaigns &ndash; entirely in-house &ndash; to help clients reach new levels of success in advancing their missions.</p>
+
+# Heading Button
+# head_btn_text: Button Text
+# head_btn_link: http://google.com
+
+# Footer Button
+foot_btn_text: Contact Us
+foot_btn_link: http://trendyminds.com/contact/
