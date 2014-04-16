@@ -26,7 +26,11 @@ layout: default
             {% when "image" %}
               <img src="{{ row.url }}" alt="{{ client.name }}">
             {% when "video" %}
-              <iframe src="http://player.vimeo.com/video/{{ row.url }}" width="{% if row.width %}{{ row.width }}{% else %}1140{% endif %}" height="{% if row.height %}{{ row.height }}{% else %}474{% endif %}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+              {% if row.url %}
+                <iframe src="http://player.vimeo.com/video/{{ row.url }}" width="{% if row.width %}{{ row.width }}{% else %}1140{% endif %}" height="{% if row.height %}{{ row.height }}{% else %}641{% endif %}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+              {% else %}
+                {{ row.embed }}
+              {% endif %}
             {% endcase %}
           </div>
         {% endfor %}
