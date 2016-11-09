@@ -7,6 +7,7 @@ This allows you to quickly build microsites with help from [Jekyll](http://jekyl
 ### Requirements
 
 * Jekyll: `gem install jekyll`
+* Node 0.10: Use `nvm` to manage your Node versions
 
 ### Installation
 
